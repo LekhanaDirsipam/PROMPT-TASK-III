@@ -1,0 +1,36 @@
+Create a modern presentation slide design for a project titled 
+"AI SEO Blog & Content Cluster Generator for Business Websites".
+
+Design requirements:
+- Background: Dark blue gradient with subtle texture
+- Add creative elements like light bulbs, pins, stickers
+- Top badge: "Task 3" in yellow rounded style
+- Main heading in bold black rounded box
+- Center card with thick yellow border and white inner area
+
+Content inside card:
+
+1. Task:
+Create a prompt system that generates SEO-optimized blog posts and content clusters
+
+2. Tools:
+ChatGPT, Claude, Gemini, Google Docs, MS Word, GitHub
+(Optional: Surfer SEO, Ahrefs)
+
+3. Skills Gained:
+SEO content creation, keyword intent mapping, blog structuring,
+content marketing strategy, prompt workflows
+
+4. Key Features:
+- Generate SEO blog outlines (H1-H3)
+- Write long-form SEO blogs
+- Create internal linking (content clusters)
+- Local SEO blogs (city + service)
+- Ensure readable and business-focused content
+
+5. Deliverable:
+Complete AI-generated SEO Blog Pack
+
+- Add "Full Task Details" button
+- Use bold colors (yellow, blue, black, white)
+- Make design modern and presentation-ready

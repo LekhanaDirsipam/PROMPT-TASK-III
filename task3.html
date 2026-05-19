@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI SEO Blog Generator</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* Background */
+body{
+    background: linear-gradient(135deg,#2b2f77,#141852);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+/* Wrapper */
+.wrapper{
+    width:90%;
+    max-width:950px;
+    text-align:center;
+}
+
+/* Badge */
+.badge{
+    display:inline-block;
+    background:#ffd600;
+    color:#000;
+    padding:8px 20px;
+    border-radius:50px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+/* Title */
+.title{
+    font-size:24px;
+    font-weight:700;
+    background:#000;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+/* Card */
+.card{
+    background:#fff;
+    color:#000;
+    padding:25px;
+    border-radius:20px;
+    border:8px solid #ffd600;
+    box-shadow:0 20px 40px rgba(0,0,0,0.4);
+    text-align:left;
+    transition:0.3s;
+    position:relative;
+}
+
+.card:hover{
+    transform:scale(1.02);
+}
+
+/* Section Titles */
+.card h3{
+    margin-top:15px;
+    color:#222;
+}
+
+/* List */
+.card ul{
+    padding-left:20px;
+}
+
+.card ul li{
+    margin:6px 0;
+}
+
+/* Highlight text */
+.highlight{
+    color:#d32f2f;
+    font-weight:600;
+}
+
+/* Button */
+.btn{
+    display:block;
+    margin:20px auto 0;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(45deg,#ff416c,#ff4b2b);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Popup */
+.popup{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background:white;
+    color:black;
+    padding:20px;
+    border-radius:15px;
+    width:320px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.popup.active{
+    transform:translate(-50%,-50%) scale(1);
+}
+
+.overlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    top:0;
+    left:0;
+    display:none;
+}
+
+.overlay.active{
+    display:block;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="badge">Task 3</div>
+
+    <div class="title">
+        AI SEO Blog & Content Cluster Generator for Business Websites
+    </div>
+
+    <div class="card">
+
+        <h3>📌 Task</h3>
+        <p>Create a prompt system that generates SEO-optimized blogs and content clusters</p>
+
+        <h3>🛠 Tools</h3>
+        <p>ChatGPT, Claude, Gemini, Google Docs, MS Word, GitHub</p>
+        <p class="highlight">(Optional: Surfer SEO, Ahrefs)</p>
+
+        <h3>🎯 Skills Gained</h3>
+        <p>SEO writing, keyword mapping, blog structuring, content strategy</p>
+
+        <h3>⚡ Key Features</h3>
+        <ul>
+            <li>SEO blog outlines (H1–H3)</li>
+            <li>Long-form SEO content</li>
+            <li>Content clusters & linking</li>
+            <li>Local SEO blogs</li>
+            <li>Readable & business-focused writing</li>
+        </ul>
+
+        <h3>📦 Deliverable</h3>
+        <p>Complete AI-generated SEO Blog Pack</p>
+
+        <button class="btn" onclick="openPopup()">Full Task Details</button>
+
+    </div>
+
+</div>
+
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+<div class="popup" id="popup">
+    <h3>Project Info</h3>
+    <p>This project builds an AI system to generate SEO blogs and content clusters for business growth.</p>
+    <button class="btn" onclick="closePopup()">Close</button>
+</div>
+
+<script>
+
+function openPopup(){
+    document.getElementById("popup").classList.add("active");
+    document.getElementById("overlay").classList.add("active");
+}
+
+function closePopup(){
+    document.getElementById("popup").classList.remove("active");
+    document.getElementById("overlay").classList.remove("active");
+}
+
+</script>
+
+</body>
+</html>
